@@ -21,6 +21,10 @@ let package = Package(
             targets: ["TunnelKitOpenVPN"]
         ),
         .library(
+            name: "TunnelKitAppExtension",
+            targets: ["TunnelKitAppExtension"]
+        ),
+        .library(
             name: "TunnelKitOpenVPNAppExtension",
             targets: ["TunnelKitOpenVPNAppExtension"]
         ),
